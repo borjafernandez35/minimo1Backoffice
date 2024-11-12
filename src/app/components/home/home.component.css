@@ -1,0 +1,43 @@
+/* Contenedor general */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar el contenido */
+    justify-content: center;
+    height: 100vh; /* Hacer que el contenedor ocupe toda la pantalla */
+  }
+  
+  /* Imagen del logo de Angular */
+  .inmoworld-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px; /* Separación del título */
+    animation: bounce 2s infinite;
+  }  
+  
+  /* Título */
+  .title {
+    font-size: 3.5rem;
+    color: #003366; /* Azul oscuro */
+    margin-bottom: 30px;
+    animation: bounce 2s infinite; /* Añadir animación de rebote */
+  }
+  
+  /* Contenedor de botones */
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Botones */
+  .home-button {
+    background-color: #003366; /* Azul oscuro */
+    color: #FAF3E0; /* Blanco roto */
+    padding: 25px 50px; /* Tamaño de los botones */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.5rem; /* Tamaño de la letra */
+    width: 300px; /* Ancho de los botones */
+  }
+  
