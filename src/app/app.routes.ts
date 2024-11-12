@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { UserComponent } from './components/usuaris/user.component';
 import { PropertyComponent } from './components/property/property.component';
 import { HomeComponent } from './components/home/home.component';
+import { ComentarioComponent } from './components/comentario/comentario.component';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { ConfirmationModalComponent } from './components/confirmation-modal/confirmation-modal.component';
 
@@ -11,6 +12,7 @@ export const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'user', component: UserComponent },
   { path: 'property', component: PropertyComponent },
+  { path: 'comment', component: ComentarioComponent },
   { path: 'confirmation-modal', component: ConfirmationModalComponent },
   { path: '**', redirectTo: 'home' } 
 ];
